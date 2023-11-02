@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Party Organizer</title>
+</head>
+<body>
+    <h1>Let's Plan a Party!</h1>
+    
+    <!-- Form to add a new party -->
+    <form id="party-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" required><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" required><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea><br>
+
+        <button type="submit">Add Party</button>
+    </form>
+    <!-- List of parties -->
+    <ul id="party-list">
+      <!-- Parties will be dynamically added here -->
+  </ul>
+</script>
+</body>
+</html>
